@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: #000;
+
+
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/new.jpg");
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    padding: 10px 8%;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0;
+}
+.logo{
+    width: 250px;
+    cursor: pointer;
+
+}
+nav button{
+    border: 0;
+    outline:0;
+    background:#126180;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+.header-content h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 650px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    overflow:hidden
+}
+.signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+.signup button{
+    border: 0;
+    outline: 0;
+    background: #126180;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.features{
+    padding:50px 12%;
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding:50px 0;
+    
+}
+.img-col img{
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin:auto;
+    border-radius:  20px;
+
+}
+.text-col{
+    margin-bottom: 20%;
+    flex-basis: 50%;
+}
+.img-col{
+    margin-bottom: 20%;
+    flex-basis: 50%;
+
+}
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+footer {
+    padding: 40px 0;
+    color: white;
+    background: black;
+  }
+  
+  footer li {
+    float: left;
+    padding: 0 10px;
+    list-style: none;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer p {
+    float: right;
+  }
+ 
